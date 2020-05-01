@@ -6,6 +6,4 @@ In this demo, we're using the `com.apple.private.security.storage.Messages` enti
 
 Follow me on Twitter: [@declanland](https://twitter.com/declanland)
 
-![Ready](Images/1.PNG =375)
-![Set](Images/2.PNG =375)
-![Go](Images/3.jpg =375)
+<img src="Images/1.PNG" width="240"> <img src="Images/2.PNG" width="240"> <img src="Images/3.jpg" width="240">

